@@ -1,8 +1,0 @@
-insert|'Hy', 'e', 1|'A string input'|'Hey'
-insert|[5, 6, 5, 2, 7, 3, 4], [3], 0|'A list input'|[3, 5, 6, 5, 2, 7, 3, 4]
-up_to_first|[6, 0, 7, 5], 5|'A list input'|[6, 0, 7]
-up_to_first|'Study Room', 'A'|'An object that is not present within the string'|'Study Room'
-up_to_first|'HelloWorld', 'W'|'A string input'|'Hello'
-up_to_first|['Date:', 'October', '18th'], '15'|'An object that is not present within the list'|['Date:', 'October', '18th']
-cut_list|'ABBC', 1|'Input as a string'|'BCBA'
-cut_list|[1, 2, 3, 9, 8, 7], 2|'input as a list'|[9, 8, 7, 3, 1, 2]
