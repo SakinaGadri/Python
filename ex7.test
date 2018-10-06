@@ -1,0 +1,15 @@
+setup|username_to_personal_info|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'F']}
+update_field|username_to_personal_info, 'asmith', 'LAST', 'SMITH'|'Changing the last name'|
+username_to_personal_info|'Changing the last name'|{'asmith':['SMITH', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'F']}
+setup|username_to_personal_info|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'F']}
+update_field|username_to_personal_info, 'asmith', 'FIRST', 'ALICE'|'Changing the first name'|
+username_to_personal_info|'Changing the first name'|{'asmith':['Smith', 'ALICE', 'alice.smith@utsc.utoronto.ca', 31, 'F']}
+setup|username_to_personal_info|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'F']}
+update_field|username_to_personal_info, 'asmith', 'GENDER', 'FEMALE'|'Changing the gender'|
+username_to_personal_info|'Changing the gender'|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'FEMALE']}
+setup|username_to_personal_info|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'F']}
+update_field|username_to_personal_info, 'asmith', 'AGE', 30|'Changing the age'|
+username_to_personal_info|'Changing the age'|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 30, 'F']}
+setup|username_to_personal_info|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'F']}
+update_field|username_to_personal_info, 'asmith', 'EMAIL', 'a.smith@utsc.utoronto.ca'|'Changing the email'|
+username_to_personal_info|'Changing the email'|{'asmith':['Smith', 'Alice', 'alice.smith@utsc.utoronto.ca', 31, 'F']}

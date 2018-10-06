@@ -1,0 +1,17 @@
+setup|switch|LightSwitch('on')
+switch.get_position()|'Checking the status of the class variables'|True
+switch.turn_off()|'Check if the turn off method works'|None
+switch.get_position()|'Checking if the status of the class variables has changed after turn off method'|False
+switch.turn_on()|'Check if the turn on method works'|None
+switch.get_position()|'Checking if the status of the class variables has changed after turn on method'|True
+switch.flip()|'Check if the flip method works'|None
+switch.get_position()|'Checking if the status of the class variables has changed after the flip method'|False
+switch.get_position()|'Check if the get position method works'|False
+switch.__str__()|'Check if the str method works'|'I am off'
+setup|switch_board|SwitchBoard(10)
+switch_board.flip(2)|'Check if the flip method works'|
+switch_board.__str__()|'Check if the string method works'|'The following switches are on:  2'
+switch_board.flip_every(1)|'Check if the flip every method works'|
+switch_board.which_switch()|'Check if the which switch method works'|[0, 1, 3, 4, 5, 6, 7, 8, 9]
+switch_board.reset()|'Check if the reset switch method works'|
+switch_board.__str__()|'Check if the string method works after reset'|'The following switches are on: '
